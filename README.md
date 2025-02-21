@@ -1,16 +1,28 @@
-# movie_app
+# Movie App
 
-A new Flutter project.
+Movie app made in Flutter with clean architecture using Getx, Hive and "TMDB" the movie db Api.
 
-## Getting Started
+# Features
+- Movies
+- Top rated movies
+- Movie details
+- TV shows
+- Tv shows details
+- Add Tv shows to bookmarks
+- Add Tv movies to bookmarks
 
-This project is a starting point for a Flutter application.
+# Installation
+- Clone the repo:
+  ```bash
+  git clone https://github.com/YazanFarrah/movie_app
+  cd movie_app
+- Run pub get
+  ```bash
+  flutter pub get
+- Add your token to constants.dart file
+  ```bash
+  token = "your_generated_token"
+- Run the app
+  ```bash
+  flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
