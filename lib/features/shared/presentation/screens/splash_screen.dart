@@ -6,6 +6,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:movie_app/config/asset_paths.dart';
+import 'package:movie_app/config/constants.dart';
 import 'package:movie_app/core/enums/text_style_enum.dart';
 import 'package:movie_app/core/routes/route_paths.dart';
 import 'package:movie_app/core/services/hive_services.dart';
@@ -70,7 +71,7 @@ class _SplashScreenState extends State<SplashScreen> {
           SizedBox(height: 24.h),
           RepaintBoundary(
             child: CustomTextWidget(
-              text: "Movie App",
+              text: AppConstants.appName,
               textAlign: TextAlign.center,
               color: Get.theme.colorScheme.onSurface,
               textThemeStyle: TextThemeStyleEnum.displayLarge,
