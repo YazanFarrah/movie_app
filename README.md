@@ -9,7 +9,7 @@ Movie app made in Flutter with clean architecture using Getx, Hive and "TMDB" th
 - TV shows
 - Tv shows details
 - Add Tv shows to bookmarks
-- Add Tv movies to bookmarks
+- Add movies to bookmarks
 
 # Installation
 - Clone the repo:
